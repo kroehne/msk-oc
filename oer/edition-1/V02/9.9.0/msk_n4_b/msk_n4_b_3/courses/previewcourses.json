@@ -1,0 +1,19 @@
+{
+	"sessionId": "itemBuilderPreviewSessionId",
+	"settings": {
+		"scoreDebugging": {
+			"hotKey": "ctrl+s"
+		},
+		"traceDebugging": {
+			"hotKey": "ctrl+y"
+		},
+		"statemachineDebugging": {
+			"hotKey": "ctrl+m"
+		},
+		"ShowTaskNavigationBars": false
+	},
+	"headerButtons": [],
+	"courses": [
+		"previewTest"
+	]
+}

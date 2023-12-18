@@ -1,0 +1,12 @@
+{
+  "name": "previewTest",
+  "items": [
+    "msk_n1_b_3"
+  ],
+  "taskCourse": [
+    {
+      "item": "msk_n1_b_3",
+      "task": "Task01"
+    }
+  ]
+}

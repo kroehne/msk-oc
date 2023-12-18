@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="lib/textareaInserts.css">
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				/* background-color: #f0f0f0; */
+			}
+
+			div.textareaInserts div.toolbar > div:last-child {
+				font-size: 65%;
+			}
+			div.textareaInserts div.toolbar > div:nth-child(3),
+			div.textareaInserts div.toolbar > div:nth-child(4),
+			div.textareaInserts div.toolbar > div:nth-child(5),
+			div.textareaInserts div.toolbar > div:nth-child(6) {
+				border-top: none;
+			}
+			div.textareaInserts div.toolbar > div:nth-child(3),
+			div.textareaInserts div.toolbar > div:nth-child(5) {
+				border-left: 1px solid black !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="tt"></div>
+
+		<script src="lib/textareaInserts.js"></script>
+		<script>
+
+				const toolbarCellWidth = 30;
+
+				const ti = new textareaInserts( '#tt', {
+
+					toolbarDirection: 'row',
+					divStyles: {
+						width: `${window.innerWidth-2*toolbarCellWidth}px`,
+						height: `${window.innerHeight}px`,
+					},
+
+					toolbarContainerStyles: {
+						// left: `${window.innerWidth-6*toolbarCellWidth-17}px`,
+						// top: `${window.innerHeight-toolbarCellWidth-17}px`,
+						width: `${2*toolbarCellWidth}px`,
+						height: `${2*toolbarCellWidth}px`,
+						'flex-wrap': 'wrap',
+					},
+
+					toolbarCellStyles: {
+						width: `${toolbarCellWidth}px`,
+						height: `${toolbarCellWidth}px`,
+					},
+
+					toolbar: [
+						{ display: "&plus;", },	// +
+						{ display: "&minus;",  },	// -
+						// { display: "&centerdot;", },	// *
+						{ display: "&sdot;", },	// *
+						{ display: "&ratio;", },	//  /
+						{ display: "&equals;", },	// =
+						{ display: frac_html_toolbar, insert: frac_html, dontInsertRecursive: true, },
+					],
+				})
+		</script>
+
+	</body>
+</html>

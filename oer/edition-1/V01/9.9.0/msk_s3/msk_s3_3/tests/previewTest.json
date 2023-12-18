@@ -1,0 +1,12 @@
+{
+  "name": "previewTest",
+  "items": [
+    "msk_s3_3"
+  ],
+  "taskCourse": [
+    {
+      "item": "msk_s3_3",
+      "task": "Task01"
+    }
+  ]
+}
