@@ -1,0 +1,43 @@
+---
+title: "Technische Details"
+---
+
+### Nutzung des *Mathe sicher können - Online-Check*
+
+*Für Lehrkräfte*: Der *Mathe sicher können - Online-Check* kann über die Plattform [alea.schule](https://www.dipf.de/en/research/projects/alea-schule-platform-for-formative-assessment) in ausgewählten Bundesländern genutzt werden.
+
+Weitereführende Informationen auf den Seiten des [Deutschen Zentrum für Lehrkräftebildung Mathematik (DZLM)](https://mathe-sicher-koennen.dzlm.de/):
+
+[![](https://mathe-sicher-koennen.dzlm.de/pikasfiles/uploads/images/logo/pikas/logo-msk.png){width=400 align="left"}](https://mathe-sicher-koennen.dzlm.de/)
+
+
+### Verwendung der Items als *Open Educational Resources*
+
+*Für Forschende*: Die diagnostischen Inhalte des *Mathe sicher können - Online Check*, d.h. die Items, werden unter folgender CC-BY Lizenz bereitgestellt: [*CC-BY-SA-NC*](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+
+#### Modifikation / Veränderung
+
+Die OER-Inhalte können mit Hilfe des vom [DIPF](https://tba.dipf.de) bereitgestellten Autorenwerkzeugs [CBA ItemBuilder](https://tba.dipf.de/de/infrastruktur/softwareentwicklung/cba-itembuilder) modifziert werden. Ein Hinweis auf die verwendete [Version](https://cba.itembuilder.de/appendix-tables.html#previous-versions) des *CBA ItemBuilder* finden sich in den Itemblättern. Der CBA ItemBuilder ist *freie Forschungssoftware* die für *nicht kommerzielle Anwendungen* genutzt werden kann, wenn die entsprechende Zitation in den entstehenden wissenschaftlichen Publikationen verwendet wird.
+
+Für spezifische Interaktionen sind *JavaScript/HTML5*-Inhalte in die *CBA ItemBuilder*-Projekte integriert. Diese integrierten Inahlte werden im Kontext des *CBA ItemBuilder* als `ExternalPageFrames` (Erweiterungskomponenten) bezeichnet. Die Erweiterungskomponente für den MSK-OC werden unter *MIT Lizenz* in diesem [Repository](https://github.com/DIPFtba/msk-oc-externalpageframes) zur Verfügung gestellt.
+
+#### Verwendung für Datenerhebungen
+
+Um die *CBA ItemBuilder*-Inhalte in Datenerhebungen verwenden zu können, ist eine *Auslieferungssoftware* notwendig. Dafür kann auf folgende Werkzeuge zurückgegriffen werden:
+
+* [*IRTlib Software*](https://www.irtlib.net): Online oder Offline Erhebungen mit CBA ItemBuilder Inhalten. Diese Tool kann auch als [Learning Tools Interoperability (LTI)](https://www.1edtech.org/standards/lti)-Provider verwendet werden. 
+
+* [*Konverter zu PCI-Komponenten*](https://github.com/DIPFtba/fastib2pci): Nutzung von CBA ItemBuilder Inhalten als [*Portable Custom Interactions* (PCI)](https://www.imsglobal.org/assessment/interactions.html) in [QTI](https://www.imsglobal.org/question/index.html)-basierten Assessmentsystemen (z.B. [TAO](https://github.com/oat-sa)).
+
+
+* [*Konverter zu SCORM-Komponenten*](https://github.com/DIPFtba/fastib2scorm): Nutzung von CBA ItemBuilder Inhalten als [*SCORM*](https://scorm.com/)-Komponenten in Lern-Management-Systemen (z.B. [moodle](https://moodle.de/)).
+
+* [*ShinyItemBuilder*](https://kroehne.github.io/ShinyItemBuilder/index.html): R-Paket zur Nutzung von CBA ItemBuilder Inhalten in [R/Shiny](https://shiny.posit.co/)-Apps (bspw. zum Hosting über [shinyapps.io](https://shinyapps.io/)).
+
+Software-Entwickler alternativ können mit Hilfe einer [*Laufzeitumgebung* (*Runtime*)](https://cba.itembuilder.de/intro.html#quick-start-ib-for-developers) die vom CBA ItemBuilder generierten Inhalte (*HTML5/JavaScript*) integrieren. 
+
+### Nutzung der Items als Teil der Dokumentation von Forschungsdaten
+
+*Für Forschende (Sekundärdaten)*: Die bei der Nutzung des *MSK-OC* anfallenden Daten der Erhebungen mit Lernenden umfassen *Ergebnisdaten* (Antworten) und *Log-Daten* (Antwortprozess). Für das vollständige Verständnis der Daten aus den interaktiven Assessmentinhalten des *MSK-OC* kann auf die *CBA ItemBuilder*-Projektdateien zurückgegriffen werden. Dadurch kann die Bedeutung der in den *Forschungsdaten* enthaltenen Detailinformationen mit Hilfe des CBA ItemBuilder exploriert werden (mehr Informaten dazu finden sich   [hier](https://cba.itembuilder.de/intro.html#quick-start-logdata)).
+
+

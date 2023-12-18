@@ -1,0 +1,71 @@
+---
+title: "N1A - STELLENWERTE VERGLEICHEN"
+---
+
+*Ich kann Zahlen mit Material lesen und darstellen* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_n1_a 
+* Auflage: edition-1 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1 (2), 1 (3) und 1 (4)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n1_a/msk_n1_a_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Zahlen mit Material darstellen
+	 - (2) Zeichne das Bild zu der Zahl.
+	 - (3) Zeichne das Bild zu der Zahl.
+	 - (4) Zeichne das Bild zu der Zahl.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n1_a_1.zip](../oer/edition-1/V01/9.9.0/msk_n1_a/msk_n1_a_1/msk_n1_a_1.zip) 
+:::
+<hr noshade/>
+
+### 2a (2), 2a (3) und 2a (4)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n1_a/msk_n1_a_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Stellenwerte darstellen
+	 - a) (2) Trage die Zahl in die Stellentafel ein und schreibe sie auf.
+	 - a) (3) Trage die Zahl in die Stellentafel ein und schreibe sie auf.
+	 - a) (4) Trage die Zahl in die Stellentafel ein und schreibe sie auf.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n1_a_2.zip](../oer/edition-1/V01/9.9.0/msk_n1_a/msk_n1_a_2/msk_n1_a_2.zip) 
+:::
+<hr noshade/>
+
+### 2b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n1_a/msk_n1_a_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Stellenwerte darstellen
+	 - b) Zu der Zahl 233 kommen 3 Zehner dazu. Welche Zahl ist es jetzt?
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n1_a_3.zip](../oer/edition-1/V01/9.9.0/msk_n1_a/msk_n1_a_3/msk_n1_a_3.zip) 
+:::
+<hr noshade/>
+

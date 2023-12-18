@@ -1,0 +1,86 @@
+---
+title: "S6A - MIT PROZENTEN RECHNEN"
+---
+
+*Ich kann Prozentwert und Prozentsatz abschätzen und bestimmen* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_s6_a 
+* Auflage: edition-1 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a und 1b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Prozente und Brüche abschätzen und darstellen
+	 - a) Wie viel Prozent des Films hat der Computer schon geladen? Schätze ungefähr! Schreibe auch als Bruch.
+	 - b) Wie sieht der Downloadbalken aus a) aus, wenn der Computer 75 % des Films geladen hat? Zeihe den Schieberegler.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s6_a_1.zip](../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_1/msk_s6_a_1.zip) 
+:::
+<hr noshade/>
+
+### 2a und 2b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Prozentwerte und Prozentsätze am Streifen finden
+	 - a) Wie viel GB wurden ungefähr schon heruntergeladen? Trage den Wert im Bild ein.
+	 - b) Erkläre, wie du die GB in a) gefunden hast.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s6_a_2.zip](../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_2/msk_s6_a_2.zip) 
+:::
+<hr noshade/>
+
+### 2c
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Prozentwerte und Prozentsätze am Streifen finden
+	 - c) Wie viel Prozent hat der Computer schon ungefähr geladen, wenn 6 GB von 20 GB geladen wurden? Zeichne im Downloadbalken ein.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s6_a_3.zip](../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_3/msk_s6_a_3.zip) 
+:::
+<hr noshade/>
+
+### 3a (1), 3a (2), 3a (3), 3a (4) und 3b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_4/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Prozentwerte und Prozentsätze bestimmen
+	 - a) Fülle die Lücken aus!
+	 - b) Erkläre deine Lösung zu a) (2). Ripp: Nutze dazu den Schiebregler in dem Prozentstreifen.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s6_a_4.zip](../oer/edition-1/V01/9.9.0/msk_s6_a/msk_s6_a_4/msk_s6_a_4.zip) 
+:::
+<hr noshade/>
+

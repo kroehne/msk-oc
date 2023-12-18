@@ -1,0 +1,91 @@
+---
+title: "N1B - STELLENWERTE VERGLEICHEN"
+---
+
+*Ich kann bündeln und entbündeln* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_n1_b 
+* Auflage: edition-1 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a (1), 1a (2) und 1a (3)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Würfelmaterial bündeln und entbündeln
+	 - a (1) Schreibe die Zahl auf, die auf dem Bild dargestellt ist.
+	 - a (2) Schreibe die Zahl auf, die auf dem Bild dargestellt ist.
+	 - a (3) Schreibe die Zahl auf, die auf dem Bild dargestellt ist.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n1_b_1.zip](../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_1/msk_n1_b_1.zip) 
+:::
+<hr noshade/>
+
+### 1b (1), 1b (2), 1b (3) und 1b (4)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Würfelmaterial bündeln und entbündeln
+	 - b (1) Tara und Jonas legen ihr Würfelmaterial zusammen. Wie viel haben sie zusammen? Schreibe die Zahl auf. 
+	 - b (2) Tara und Jonas legen ihr Würfelmaterial zusammen. Wie viel haben sie zusammen? Schreibe die Zahl auf. 
+	 - b (3) Tara und Jonas legen ihr Würfelmaterial zusammen. Wie viel haben sie zusammen? Schreibe die Zahl auf. 
+	 - b (4) Tara und Jonas legen ihr Würfelmaterial zusammen. Wie viel haben sie zusammen? Schreibe die Zahl auf. 
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n1_b_2.zip](../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_2/msk_n1_b_2.zip) 
+:::
+<hr noshade/>
+
+### 2a (1), 2a (2), 2a (3) und 2b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Zahlen bündeln und entbündeln
+	 - a (1) Trage in die Stellentafel ein und schreibe die Zahl auf. 
+	 - a (2) Trage in die Stellentafel ein und schreibe die Zahl auf. 
+	 - a (3) Trage in die Stellentafel ein und schreibe die Zahl auf. 
+	 - b) Erkläre deine Lösung zur letzten Aufgabe (6T, 2H, 42Z, 5E)
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n1_b_3.zip](../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_3/msk_n1_b_3.zip) 
+:::
+<hr noshade/>
+
+### 2c
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_4/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Zahlen bündeln und entbündeln
+	 - c) Wie viel sind 84 Hunderter? Wähle aus:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n1_b_4.zip](../oer/edition-1/V01/9.9.0/msk_n1_b/msk_n1_b_4/msk_n1_b_4.zip) 
+:::
+<hr noshade/>
+

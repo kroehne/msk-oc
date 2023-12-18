@@ -1,0 +1,416 @@
+---
+title: "Mathe sicher können - Online-Check *(MSK-OC)* als Open Educational Resources *(OER)*"
+---
+
+```{r extract items}
+#| echo: false
+
+library(openxlsx)  
+library(stringr)
+
+msk_versions <- c("V01","V02")
+msk_runtimes <- c("9.9.0","10.0.0")
+msk_editions <- c("edition-1","edition-2")
+      
+msk_label <- data.frame(Module =  c("msk_b1_a","msk_b1_b","msk_b1_c","msk_b2_a", 
+                                    "msk_b2_b","msk_b2_c","msk_b3_a","msk_b3_b",
+                                    "msk_b4_a","msk_d1_a","msk_d2_a","msk_d2_b",
+                                    "msk_d3_a", "msk_d4_a","msk_d4_b","msk_db",
+                                    "msk_n1_a","msk_n1_b", "msk_n2_a","msk_n2_b",     
+                                    "msk_n2_c","msk_n3_a","msk_n4_a","msk_n4_b",                                             "msk_n5_a","msk_n6_a","msk_n6_b","msk_n6_c",
+                                    "msk_n7_a","msk_n7_b","msk_n8_a","msk_s1_a",
+                                    "msk_s1_b","msk_s1_c","msk_s1_d","msk_s2_a",
+                                    "msk_s2_b","msk_s3","msk_s4_a","msk_s4_b",
+                                    "msk_s5_a","msk_s5_b","msk_s6_a","msk_s6_b",
+                                    "msk_s6_c"), 
+                        Label=c("B1A","B1B","B1C","B2A","B2B","B2C","B3A","B3B","B4A",
+                                "D1A","D2A","D2B","D3A","D4A","D4B","DB","N1A","N1B",
+                                "N2A","N2B","N2C","N3A","N4A","N4B","N5A","N6A","N6B",
+                                "N6C","N7A","N7B","N8A","S1A","S1B","S1C","S1D",
+                                "S2A","S2B","S3","S4A","S4B","S5A","S5B","S6A",
+                                "S6B","S6C")) 
+
+###
+
+extract_codebook_information_title <- function(){
+
+  msk_codebook_title <- data.frame(Edition=NULL, Version=NULL, Module=NULL, Label=NULL, Document=NULL, SubTitle1=NULL, SubTitle=NULL)
+  msk_codebook_tasknames <- data.frame(Edition=NULL, Version=NULL, Module=NULL, Label=NULL, Project=NULL, Teilaufgabe=NULL, 
+                                       Teilaufgabentitel=NULL, Aufgabenueberschrift=NULL, Aufgabenanwendung=NULL)
+  
+  for (edition in msk_editions){
+    for (version in msk_versions){
+      # edition <- "edition-1"
+      # version <- "V01"
+      
+       files <- list.files(paste0("_content/_aleacodebooks/",edition,"/",version), pattern = "*.xlsx")
+       for (f in files){
+         # f <- files[1]
+         tab <- read.xlsx(xlsxFile=paste0("_content/_aleacodebooks/",edition,"/",version,"/",f), sheet = "Bausteine")
+         msk_codebook_title <- rbind(msk_codebook_title,data.frame(Edition=edition, 
+                                      Version=version, 
+                                      Module=msk_label[msk_label$Label==tab$Baustein,"Module"], 
+                                      Label=tab$Baustein, 
+                                      Document=tab$Dokument, 
+                                      SubTitle1=tab$Untertitel.1, 
+                                      SubTitle2=tab$Untertitel.2))
+          tab <- read.xlsx(xlsxFile=paste0("_content/_aleacodebooks/",edition,"/",version,"/",f), sheet = "Aufgabenüberschriften")
+          
+          print(f)
+          msk_codebook_tasknames <- rbind(msk_codebook_tasknames,data.frame(Edition=edition, 
+                                      Version=version, 
+                                      Module=msk_label[msk_label$Label==unique(tab$Modul),"Module"], 
+                                      Label=tab$Modul, 
+                                      Project=tab[,2],#tab$CBA.ItemBuilder.Projekt, 
+                                      Teilaufgabe=tab$Teilaufgabe, 
+                                      Teilaufgabentitel=tab$Teilaufgabentitel,
+                                      Aufgabenueberschrift=tab$Aufgabenüberschrift,
+                                      Aufgabenanwendung=tab$Aufgabenanwendung))
+        
+      }
+      
+    }
+  }
+   
+  list(msk_codebook_title=msk_codebook_title, 
+       msk_codebook_tasknames=msk_codebook_tasknames)
+    
+}
+
+if (!file.exists("_cache/msk_codebook_title.RData")){
+  msk_codebook <- extract_codebook_information_title()
+  saveRDS(msk_codebook$msk_codebook_title,"_cache/msk_codebook_title.RData")
+  saveRDS(msk_codebook$msk_codebook_tasknames,"_cache/msk_codebook_tasknames.RData")
+}
+msk_codebook_title <- readRDS("_cache/msk_codebook_title.RData")
+msk_codebook_tasknames <- readRDS("_cache/msk_codebook_tasknames.RData")
+
+###
+
+
+add_runtime_to_site <- function(version="9.9.0", 
+                                sourcefolder_runtimes = "_runtimes/",
+                                targetfolder_runtimes = "_site/runtimes/"){
+
+  if (!dir.exists(paste0(targetfolder_runtimes)))
+    dir.create(paste0(targetfolder_runtimes))
+
+  if (!dir.exists(paste0(targetfolder_runtimes,"/",version))){
+    dir.create(paste0(targetfolder_runtimes,"/",version))
+    dir.create(paste0(targetfolder_runtimes,"/",version,"/js"))
+    dir.create(paste0(targetfolder_runtimes,"/",version,"/css"))
+
+    invisible(file.copy(from=paste0(paste0(sourcefolder_runtimes,version,"/css/"),
+                          list.files(paste0(sourcefolder_runtimes,"/",version,"/css"))),
+                      to=paste0(targetfolder_runtimes,"/",version,"/css/"),
+                      overwrite = TRUE, recursive = FALSE, copy.mode = TRUE))
+
+    invisible(file.copy(from=paste0(paste0(sourcefolder_runtimes,version,"/js/"),
+                          list.files(paste0(sourcefolder_runtimes,"/",version,"/js"))),
+                      to=paste0(targetfolder_runtimes,"/",version,"/js/"),
+                      overwrite = TRUE, recursive = FALSE, copy.mode = TRUE))
+  
+    
+  }
+}
+
+add_ib_project_to_site <- function(file="msk_b1_a_1.zip", 
+                                   module="msk_b1_a",
+                                   version="V01", 
+                                   edition="edition-1", 
+                                   runtime="9.9.0"){
+  
+  # file <- "msk_b1_a_1.zip"
+  # module<-"msk_b1_a"
+  # version<-"V01"
+  # edition<-"edition-1"
+  # runtime<-"9.9.0"
+  
+  targetfolder_base <- "_site/oer/"
+  basefolder_url <- "/oer/"
+  file <- paste0("_content/_ibprojects/",edition,"/",version,"/",runtime,"/",module,"/",file)
+    
+  stimulus <- jsonlite::fromJSON(unz(file, "stimulus.json"))
+
+  if (!dir.exists(paste0(targetfolder_base)))
+    dir.create(paste0(targetfolder_base))
+  
+  if (!dir.exists(paste0(targetfolder_base,edition)))
+    dir.create(paste0(targetfolder_base,edition))
+  
+  if (!dir.exists(paste0(targetfolder_base,edition,"/",version)))
+    dir.create(paste0(targetfolder_base,edition,"/",version))
+  
+  if (!dir.exists(paste0(targetfolder_base,edition,"/",version, "/", runtime)))
+    dir.create(paste0(targetfolder_base,edition,"/",version, "/", runtime))
+   
+  if (!dir.exists(paste0(targetfolder_base,edition,"/",version, "/", runtime, "/", module)))
+    dir.create(paste0(targetfolder_base,edition,"/",version, "/", runtime, "/", module))
+  
+  add_runtime_to_site(version=stimulus$runtimeCompatibilityVersion,
+                      sourcefolder_runtimes = "_runtimes/",
+                      targetfolder_runtimes = "_site/runtimes/")
+
+  targetfolder <- paste0(targetfolder_base,edition,"/",version, "/", runtime, "/", module,"/", stimulus$itemName)  
+  
+  if (!dir.exists(targetfolder))
+    dir.create(targetfolder)
+   
+  baseurl_runtime <- "../../../../../../runtimes"
+  
+  html <- c("<!doctype html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "    <meta charset=\"utf-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\">",
+            "    <meta name=\"theme-color\" content=\"#000000\">",
+            "    <script>window.cba_runtime_config = {",
+            "        mode: \"preview\",",
+            paste0("         configuration_api: \"",basefolder_url,"/", stimulus$runtimeCompatibilityVersion, "/", stimulus$itemName, "\","),
+            paste0("         assets_endpoint: \"",basefolder_url,"/", stimulus$runtimeCompatibilityVersion, "/", stimulus$itemName, "\","),
+            "        assessment_id: \"myassessmentid\"",
+            "    }</script>",
+            "    <meta charset=\"utf-8\"/>",
+            paste0("    <link rel=\"stylesheet\" href=\"",baseurl_runtime,"/",stimulus$runtimeCompatibilityVersion,"/css/main.css\">"),
+            
+            paste0("<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>"),
+            paste0("<script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>"),
+            
+            "</head>",
+            "<body oncontextmenu=\"event.preventDefault()\">",
+            "<noscript>You need to enable JavaScript to run this app.</noscript>",
+            "<div id=\"root\" class=\"loader\"></div>",
+            paste0("<script type=\"text/javascript\" src=\"",baseurl_runtime,"/",stimulus$runtimeCompatibilityVersion,"/js/main.js\"></script>"),
+            paste0("<script type=\"text/javascript\" src=\"",baseurl_runtime,"/",stimulus$runtimeCompatibilityVersion,"/js/runtime~main.js\"></script>"),
+            "</body>",
+            "</html>")
+    
+   
+  fileConn<-file(paste0(targetfolder,"/index.html"))
+  writeLines(html, fileConn)
+  close(fileConn)
+
+  if (!dir.exists(paste0(targetfolder,"/tests"))){
+    dir.create(paste0(targetfolder,"/tests"), recursive = T)
+  }
+  
+  if (length( stimulus$tasks)== 1){
+        
+        json_previewTest <- c("{",
+                              "  \"name\": \"previewTest\",",
+                              "  \"items\": [",
+                              paste0("    \"",stimulus$itemName,"\""),
+                              "  ],",
+                              "  \"taskCourse\": [",
+                              "    {",
+                              paste0("      \"item\": \"",stimulus$itemName,"\","),
+                              paste0("      \"task\": \"",stimulus$tasks,"\""),
+                              "    }",
+                              "  ]",
+                              "}")
+      } else {
+        
+        foo <- paste0("      \"item\": \"",stimulus$itemName,"\",  \"task\": \"",stimulus$tasks,"\"")
+        json_previewTest <- c("{", "  \"name\": \"previewTest\",", "  \"items\": [", paste0("    \"",stimulus$itemName,"\""), "  ],",
+                              "  \"taskCourse\": [", 
+                              paste0("{\"item\": \"",stimulus$itemName,"\",  \"task\": \"",stimulus$tasks,"\"}",collapse = ","),
+                              "  ]",
+                              "}")
+      }
+  
+  fileConn<-file(paste0(targetfolder,"/tests/previewTest.json"))
+  writeLines(json_previewTest, fileConn)
+  close(fileConn)
+
+  if (!dir.exists(paste0(targetfolder,"/courses"))){
+      dir.create(paste0(targetfolder,"/courses"), recursive = T)
+  }
+
+  json_previewcourses <- c("{",
+                           "	\"sessionId\": \"itemBuilderPreviewSessionId\",",
+                           "	\"settings\": {",
+                           "		\"scoreDebugging\": {",
+                           "			\"hotKey\": \"ctrl+s\"",
+                           "		},",
+                           "		\"traceDebugging\": {",
+                           "			\"hotKey\": \"ctrl+y\"",
+                           "		},",
+                           "		\"statemachineDebugging\": {",
+                           "			\"hotKey\": \"ctrl+m\"",
+                           "		},",
+                           "		\"ShowTaskNavigationBars\": false",
+                           "	},",
+                           "	\"headerButtons\": [],",
+                           "	\"courses\": [",
+                           "		\"previewTest\"",
+                           "	]",
+                           "}")
+
+  fileConn<-file(paste0(targetfolder,"/courses/previewcourses.json"))
+  writeLines(json_previewcourses, fileConn)
+  close(fileConn)    
+  
+  if (!dir.exists(paste0(targetfolder,"/items"))){
+      dir.create(paste0(targetfolder,"/items"), recursive = T)
+  }
+  
+  tmp_files <- unzip(file,list=T)
+  if ("config.json" %in% tmp_files$Name ){
+    unzip(file,files="config.json",exdir=paste0(targetfolder,"/items"))  
+    file.rename(paste0(targetfolder,"/items/config.json"),paste0(targetfolder,"/items/",stimulus$itemName,".json"))
+  }
+  
+   tmp_resources <- tmp_files$Name[grepl("^resources/",tmp_files$Name)]
+   if (length(tmp_resources)>0){
+      unzip(file,files=tmp_resources,exdir=targetfolder)
+   }
+    
+   tmp_external_resources <- tmp_files$Name[grepl("^external-resources/",tmp_files$Name)]
+   if (length(tmp_external_resources)>0){
+      unzip(file,files=tmp_external_resources,exdir=targetfolder)
+   }
+   
+    tmp_targetfile <- paste0(targetfolder,"/",stimulus$itemName,".zip")
+    if (file.exists(tmp_targetfile)){
+      file.remove(tmp_targetfile)
+    }
+    invisible(file.copy(file,tmp_targetfile))
+
+    viewerhtml <- paste0(readLines(paste0("_template/","template_viewer.html")), collapse = "\n")
+    viewerhtml <- gsub("__WIDTH__", stimulus$itemWidth, viewerhtml)
+    viewerhtml <- gsub("__HEIGHT__", stimulus$itemHeight, viewerhtml)
+    viewerhtml <- gsub("__URL__", "index.html", viewerhtml)
+    
+    fileConn<-file(paste0(targetfolder,"/viewer.html"))
+    writeLines(viewerhtml, fileConn)
+    close(fileConn)
+    
+          
+}
+
+create_summary_page <- function(targetfolder, items,
+                                   module="msk_b1_a",
+                                   version="V01", 
+                                   edition="edition-1", 
+                                   runtime="9.9.0"){
+
+  qmd <- paste0('---\n',
+paste0('title: "' , msk_label[msk_label$Module==module,"Label"], ' - ' , msk_codebook_title[msk_codebook_title$Module == module, "SubTitle1"], '"\n'),
+'---\n\n',
+paste0("*",msk_codebook_title[msk_codebook_title$Module == module, "SubTitle2"], "* \n"),
+'\n\n',
+'::: {.callout-note collapse="true"  title="Bausteinversion"}\n',
+'\n\n',
+paste0('* Baustein: ', module ,' \n'),
+paste0('* Auflage: ', edition ,' \n'),
+paste0('* Version: ', version ,' \n'),
+paste0('* Runtime: ', runtime ,' \n'),
+':::\n\n',
+'## Aufgaben\n',
+'\n')
+
+  
+for (i in items){
+  iname <- gsub(".zip","",i)
+  
+  itemnames <- str_flatten_comma(msk_codebook_tasknames[msk_codebook_tasknames$Project == iname,"Teilaufgabentitel"], last = " und ")
+  
+  qmd <- c(qmd,paste0('### ', itemnames, '\n', 
+'```{=html}\n',
+'<iframe width="100%" height="480"\n', paste0('src="../oer/',edition,'/',version,'/',runtime,'/', module, '/', iname, '/viewer.html"'),'></iframe>\n',
+'```\n',
+'\n\n',
+'::: {.callout-tip collapse="true"  title="Details"}\n',
+'\n\n',
+
+paste0('* Aufgabenüberschrift: ', unique(msk_codebook_tasknames[msk_codebook_tasknames$Project == iname,"Aufgabenueberschrift"]),'\n'),
+
+paste0('\t - ', unique(msk_codebook_tasknames[msk_codebook_tasknames$Project == iname,"Aufgabenanwendung"]),collapse = '\n'), 
+'\n',
+
+paste0('* Quelldatei für CBA ItemBuilder ', runtime ,': [', i, '](../oer/', edition,'/',version,'/',runtime,'/', module, '/', iname, '/', i, ') \n'),
+':::\n',
+'<hr noshade/>\n'
+))
+}
+  
+  if (!dir.exists(targetfolder))
+    dir.create(targetfolder)
+  
+  fileConn<-file(paste0(targetfolder,edition,"_",version,"_",runtime,"_",module, ".qmd"))
+  writeLines(qmd, fileConn)
+  close(fileConn)
+  
+}
+
+for (version in c("V01","V02")){
+  for (runtime in c("9.9.0","10.0.0")){
+    for (edition in c("edition-1","edition-2")){
+      
+      #version <- "V01"
+      #runtime <- "9.9.0"
+      #edition <- "edition-1"
+      
+      source_folder <- paste0("_content/_ibprojects/",edition,"/",version,"/",runtime,"/")
+      module_folders <- list.dirs(source_folder)
+      module_folders <- module_folders[!source_folder==module_folders]  
+      
+      target_folder <- "oer_generated/"
+      
+      for (m in module_folders){
+        #m<-module_folders[1]
+        items <- list.files(m, pattern="*.zip")
+        module <- sub(paste0(source_folder,"/"),"",m)
+        
+        create_summary_page(target_folder, items, module, version, edition, runtime)
+        
+        for (f in items){
+          add_ib_project_to_site(f, module, version, edition, runtime)   
+        }
+        
+      }
+
+    } 
+  }
+}
+
+
+```
+ 
+## 1. Auflage
+
+```{r list-first-edition}
+#| echo: false 
+#| output: asis
+
+info <- data.frame(Baustein=NULL,Version=NULL,Thema=NULL,ItemBuilder=NULL)
+
+edition <- "edition-1"
+versions <- list.dirs(paste0("_content/_ibprojects/",edition),recursive=F,full.names = F)
+
+for (version in versions){
+  
+  runtimes <- list.dirs(paste0("_content/_ibprojects/",edition,"/",version),recursive=F,full.names = F)
+  for (runtime in runtimes){
+
+    source_folder <- paste0("_content/_ibprojects/",edition,"/",version,"/",runtime,"/")
+    module_folders <- list.dirs(source_folder)
+    module_folders <- module_folders[!source_folder==module_folders]  
+    
+    for (m in module_folders){
+      module <- sub(paste0(source_folder,"/"),"",m)
+      link <- paste0("[",runtime,"](","oer_generated/",edition,"_",version,"_",runtime,"_",module, ".qmd",")")
+      
+      info <- rbind(info,data.frame(Baustein=msk_label[msk_label$Module==module,"Label"],Thema=msk_codebook_title[msk_codebook_title$Module == module, "SubTitle1"],Version=version,ItemBuilder=link))
+    }
+    
+  }
+}
+
+
+
+knitr::kable(info)
+
+```
+
+ 

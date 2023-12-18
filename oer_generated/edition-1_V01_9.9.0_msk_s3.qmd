@@ -1,0 +1,100 @@
+---
+title: "S3 - TEXTAUFGABEN VERSTEHEN"
+---
+
+*Ich kann Textaufgaben verstehen und lösen* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_s3 
+* Auflage: edition-1 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Gegebene und gesuchte Informationen in Textaufgaben finden
+	 - a) Rico geht einkaufen. Er hat 15 € von seiner Mutter bekommen. Beim Bäcker bezahlt er zuerst 3 €, und danach im Supermarkt 8 €.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s3_1.zip](../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_1/msk_s3_1.zip) 
+:::
+<hr noshade/>
+
+### 1b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Gegebene und gesuchte Informationen in Textaufgaben finden
+	 - b) Gib eine Plus- und eine Minus-Aufgabe an, die jeweils zu dem Bild passt.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s3_2.zip](../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_2/msk_s3_2.zip) 
+:::
+<hr noshade/>
+
+### 1c (1) und 1c (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Gegebene und gesuchte Informationen in Textaufgaben finden
+	 - c) Tara hat vor ihrem Geburtstag 27 Sticker. Sie gibt an ihrem Geburtstag 9 Sticker ab und bekommt 12 Sticker geschenkt.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s3_3.zip](../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_3/msk_s3_3.zip) 
+:::
+<hr noshade/>
+
+### 2a und 2b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_4/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Sätze in Textaufgaben genau lesen
+	 - a) Emily hat 32 Kaugummis. Ihrer Schwester gibt sie 11 Kaugummis ab.
+	 - b) Emily hat 32 Kaugummis. Ihre Schwester gibt ihr 11 Kaugummis ab.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s3_4.zip](../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_4/msk_s3_4.zip) 
+:::
+<hr noshade/>
+
+### 3 (1) und 3 (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_5/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Vielschrittige Textaufgaben entschlüsseln und bearbeiten
+	 - Im Elektor-Laden Merkur gibt es heute 8 € Rabatt auf PC-Spiele. Bei Kaufmarkt Media kostet ein PC-Spiel 23 €. Dort kostet es 5 € weniger als bei Merkur.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s3_5.zip](../oer/edition-1/V01/9.9.0/msk_s3/msk_s3_5/msk_s3_5.zip) 
+:::
+<hr noshade/>
+

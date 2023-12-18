@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "MSK-OC &#9829; OER"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Standortbestimmungen
+      - href: tech.qmd
+        text: Technische Details
+      - href: about.qmd
+        text: Über/Impressum
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
+lang: de

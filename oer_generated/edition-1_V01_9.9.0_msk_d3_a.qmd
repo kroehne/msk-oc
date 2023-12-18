@@ -1,0 +1,68 @@
+---
+title: "D3A - ADDIEREN UND SUBTRAHIEREN VON DEZIMALZAHLEN"
+---
+
+*Ich kann Dezimalzahlen vergleichen und der Größe nach ordnen* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_d3_a 
+* Auflage: edition-1 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a (1) und 1a (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_d3_a/msk_d3_a_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Am Zahlenstrahl addieren und subtrahieren
+	 - a) Nenne zu den Bildern jeweils eine passende Additions- und eine passende Subtraktionsaufgabe.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_d3_a_1.zip](../oer/edition-1/V01/9.9.0/msk_d3_a/msk_d3_a_1/msk_d3_a_1.zip) 
+:::
+<hr noshade/>
+
+### 1b (1) und 1b (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_d3_a/msk_d3_a_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Am Zahlenstrahl addieren und subtrahieren
+	 - b) Zeichne zu den Aufgaben jeweils ein passendes Bild am Zahlenstrahl.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_d3_a_2.zip](../oer/edition-1/V01/9.9.0/msk_d3_a/msk_d3_a_2/msk_d3_a_2.zip) 
+:::
+<hr noshade/>
+
+### 2a (1), 2a (2), 2a (3), 2a (4) und 2b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_d3_a/msk_d3_a_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Schriftlich addieren und subtrahieren
+	 - a) Schreibe untereinander und rechne aus.
+	 - b) Beim schriftlichen Addieren und Subtrahieren mit Dezimalzaheln muss ich darauf achten, dass…
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_d3_a_3.zip](../oer/edition-1/V01/9.9.0/msk_d3_a/msk_d3_a_3/msk_d3_a_3.zip) 
+:::
+<hr noshade/>
+

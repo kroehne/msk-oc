@@ -1,0 +1,69 @@
+---
+title: "S4A - DIAGRAMME VERSTEHEN UND NUTZEN"
+---
+
+*Ich kann Diagramme lesen* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_s4_a 
+* Auflage: edition-1 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a und 1b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s4_a/msk_s4_a_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Säulendiagrammen Werte entnehmen
+	 - a) Übertrage die Daten vom Diagramm in die Tabelle:
+	 - b) Wie viele Kinder mehr haben Pizza zum Lieblingsessen gewählt als Spaghetti?
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s4_a_1.zip](../oer/edition-1/V01/9.9.0/msk_s4_a/msk_s4_a_1/msk_s4_a_1.zip) 
+:::
+<hr noshade/>
+
+### 2a und 2b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s4_a/msk_s4_a_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Säulendiagramme verstehen
+	 - a) Welches Essen ist am beliebtesten?
+	 - b) Wie viele Kinder mögen am liebsten Fischstäbchen?
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s4_a_2.zip](../oer/edition-1/V01/9.9.0/msk_s4_a/msk_s4_a_2/msk_s4_a_2.zip) 
+:::
+<hr noshade/>
+
+### 3
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_s4_a/msk_s4_a_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Säulendiagramme beschreiben
+	 - Beschreibe, was du in dem Diagramm siehst.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_s4_a_3.zip](../oer/edition-1/V01/9.9.0/msk_s4_a/msk_s4_a_3/msk_s4_a_3.zip) 
+:::
+<hr noshade/>
+

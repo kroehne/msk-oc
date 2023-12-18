@@ -1,0 +1,114 @@
+---
+title: "N6A - MULTIPLIZIEREN UND DIVIDIEREN"
+---
+
+*Ich kann sicher multiplizieren und dividieren* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_n6_a 
+* Auflage: edition-1 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a (1), 1a (2), 1b (1) und 1b (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Mit 10 multiplizieren
+	 - a) (1)
+	 - a) (2)
+	 - b) (1)
+	 - b) (2)
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n6_a_1.zip](../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_1/msk_n6_a_1.zip) 
+:::
+<hr noshade/>
+
+### 2a (1), 2a (2), 2b (1) und 2b (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Durch 10 dividieren
+	 - a) (1)
+	 - a) (2)
+	 - b) (1)
+	 - b) (2)
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n6_a_2.zip](../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_2/msk_n6_a_2.zip) 
+:::
+<hr noshade/>
+
+### 3a (1), 3a (2), 3b (1) und 3b (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Mit 100 und 1000 multiplizieren und dividieren
+	 - a) (1)
+	 - a) (2)
+	 - b) (1)
+	 - b) (2)
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n6_a_3.zip](../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_3/msk_n6_a_3.zip) 
+:::
+<hr noshade/>
+
+### 4a (1) (1), 4a (1) (2), 4a (2) (1) und 4a (2) (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_4/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 4 Multiplikation und Division mit Stufenzahlen
+	 - a) (1)
+	 - a) (2)
+	 - b) (1)
+	 - b) (2)
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n6_a_4.zip](../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_4/msk_n6_a_4.zip) 
+:::
+<hr noshade/>
+
+### 4b (1) (1), 4b (1) (2), 4b (2) (1) und 4b (2) (1)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_5/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 4 Multiplikation und Division mit Stufenzahlen
+	 - c) (1)
+	 - c) (2)
+	 - d) (1)
+	 - d) (2)
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n6_a_5.zip](../oer/edition-1/V01/9.9.0/msk_n6_a/msk_n6_a_5/msk_n6_a_5.zip) 
+:::
+<hr noshade/>
+
