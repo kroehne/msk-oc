@@ -1,4 +1,5 @@
 .quarto/
+_content/
 _site/
 _book/
 .Rproj.user/**

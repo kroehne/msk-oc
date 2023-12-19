@@ -35,7 +35,7 @@ jobs:
           key: ${{ runner.os }}-${{ steps.get-r-version.outputs.version }}-3-
       - name: Install RMarkdown
         run: |
-          install.packages(c("rmarkdown","openxlsx","stringr"))
+          install.packages(c("rmarkdown","openxlsx","stringr","dplyr"))
         shell: Rscript {0}
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
