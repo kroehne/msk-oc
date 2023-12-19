@@ -2,11 +2,19 @@
 title: "Mathe sicher können - Online-Check *(MSK-OC)* als Open Educational Resources *(OER)*"
 ---
 
-```{r extract items}
+
+```{r install packages}
 #| echo: false
+#| warning: false
 
 library(openxlsx)  
 library(stringr)
+library(dplyr)
+
+```
+
+```{r extract items}
+#| echo: false
 
 msk_versions <- c("V01","V02")
 msk_runtimes <- c("9.9.0","10.0.0")
@@ -406,9 +414,14 @@ for (version in versions){
   }
 }
 
-
-
-knitr::kable(info)
+info <- info %>% arrange(Baustein, Version)
+result <- info %>%
+  group_by(Baustein) %>%
+  mutate(Baustein = replace(Baustein, duplicated(Baustein), '')) %>%
+  ungroup %>%
+  mutate(Thema = replace(Thema, duplicated(Thema), '')) %>% select(Thema,Baustein,Version,ItemBuilder)
+colnames(result) <-c("Thema des Bausteins", "Baustein", "Version", "CBA ItemBuilder")
+knitr::kable(result)
 
 ```
 
