@@ -4,21 +4,21 @@
     "href": "names.html",
     "title": "Namenskonventionen",
     "section": "",
-    "text": "Baustein\nAuflage\nVersion\nRuntime\nProject\n\n\n\n\nB1A, B1B, …, S4B\nedition-1 oder edition-2\nV01 oder V02\n9.8.0, 9.9.0 oder 10.0.0\n*_1.zip, *_2.zip, …\n\n\n\nAnmerkungen:\n\nCBA-ItemBuilderProjektdateien in unterschiedlichen Runtime-Versionen sind inhaltsäquivalent.\nVersion identifiziert die inhaltliche Version eines Bausteins (gleiches Fördermaterial)\nAuflage identifiziert die konzeptuell veränderten Bausteine (anderes Fördermaterial)"
+    "text": "Baustein\nAuflage\nVersion\nRuntime\nProject\n\n\n\n\nB1A, B1B, …, S4B\nedition-1 oder edition-2\nV01 oder V02\n9.9.0 oder 10.0.0\n*_1.zip, *_2.zip, …\n\n\n\nAnmerkungen:\n\nCBA-ItemBuilderProjektdateien in unterschiedlichen Runtime-Versionen sind inhaltsäquivalent.\nVersion identifiziert die inhaltliche Version eines Bausteins (gleiches Fördermaterial)\nAuflage identifiziert die konzeptuell veränderten Bausteine (anderes Fördermaterial)"
   },
   {
     "objectID": "names.html#übersicht",
     "href": "names.html#übersicht",
     "title": "Namenskonventionen",
     "section": "",
-    "text": "Baustein\nAuflage\nVersion\nRuntime\nProject\n\n\n\n\nB1A, B1B, …, S4B\nedition-1 oder edition-2\nV01 oder V02\n9.8.0, 9.9.0 oder 10.0.0\n*_1.zip, *_2.zip, …\n\n\n\nAnmerkungen:\n\nCBA-ItemBuilderProjektdateien in unterschiedlichen Runtime-Versionen sind inhaltsäquivalent.\nVersion identifiziert die inhaltliche Version eines Bausteins (gleiches Fördermaterial)\nAuflage identifiziert die konzeptuell veränderten Bausteine (anderes Fördermaterial)"
+    "text": "Baustein\nAuflage\nVersion\nRuntime\nProject\n\n\n\n\nB1A, B1B, …, S4B\nedition-1 oder edition-2\nV01 oder V02\n9.9.0 oder 10.0.0\n*_1.zip, *_2.zip, …\n\n\n\nAnmerkungen:\n\nCBA-ItemBuilderProjektdateien in unterschiedlichen Runtime-Versionen sind inhaltsäquivalent.\nVersion identifiziert die inhaltliche Version eines Bausteins (gleiches Fördermaterial)\nAuflage identifiziert die konzeptuell veränderten Bausteine (anderes Fördermaterial)"
   },
   {
     "objectID": "names.html#struktur-des-repository",
     "href": "names.html#struktur-des-repository",
     "title": "Namenskonventionen",
     "section": "Struktur des Repository",
-    "text": "Struktur des Repository\n\nBranch: main: OER Inhalte\nBranch: gh-pages: Website unter https://kroehne.github.io/msk-oc/\nBranch: quarto: R-/Quarto-Project zur Erstellung der Website\n\n\nCBA ItemBuilder Projekt-Dateien\n\nAuflage (1. Auflage = edition-1, 2. Auflage = edition-2, … )\n\nVersion (V01, V02, …)\n\nBaustein (msk_b1_a, msk_b1_b, …)\n\nRuntime (9.9.0, 10.0.0, …)\n\n\n\n\n\n\nCodebooks\nCodebooks aus der Programmierung von alea.schule:\n\nAuflage (1. Auflage = edition-1, 2. Auflage = edition-2, … )\n\nVersion (V01, V02, …)\n\nBaustein (msk_b1_a, msk_b1_b, …)"
+    "text": "Struktur des Repository\n\nBranch: main: OER Inhalte\nBranch: gh-pages: Ausgabe als Website\n\nAbrufbar unter https://kroehne.github.io/msk-oc/\n\nBranch: quarto: R-/Quarto-Project zur Erstellung der Website\n\nBenötigt den Inahtld es Branch main im Verzeichnis _content/\n\n\n\nCBA ItemBuilder Projekt-Dateien\n\nAuflage (1. Auflage = edition-1, 2. Auflage = edition-2, … )\n\nVersion (V01, V02, …)\n\nBaustein (msk_b1_a, msk_b1_b, …)\n\nRuntime (9.9.0, 10.0.0, …)\n\n\n\n\n\n\nCodebooks\nCodebooks aus der Programmierung von alea.schule:\n\nAuflage (1. Auflage = edition-1, 2. Auflage = edition-2, … )\n\nVersion (V01, V02, …)\n\nBaustein (msk_b1_a, msk_b1_b, …)"
   },
   {
     "objectID": "oer_generated/edition-1_V01_9.9.0_msk_s2_b.html",
@@ -375,7 +375,7 @@
     "href": "about.html",
     "title": "Über/Impressum",
     "section": "",
-    "text": "Projekte Mathe aufholen nach Corona\n\n2023/12/18: OER-Veröffentlichung der Computerisierten Assessmentinhalte als CBA ItemBuilder Projektdateien"
+    "text": "Projekte Mathe aufholen nach Corona\n\n2023/12/18: OER-Veröffentlichung der computerisierten Assessmentinhalte des Mathe sicher können - Online Check als CBA ItemBuilder Projektdateien"
   },
   {
     "objectID": "tech.html",

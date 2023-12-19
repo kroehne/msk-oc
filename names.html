@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <td><code>B1A</code>, <code>B1B</code>, …, <code>S4B</code></td>
 <td><code>edition-1</code> oder <code>edition-2</code></td>
 <td><code>V01</code> oder <code>V02</code></td>
-<td><code>9.8.0</code>, <code>9.9.0</code> oder <code>10.0.0</code></td>
+<td><code>9.9.0</code> oder <code>10.0.0</code></td>
 <td><code>*_1.zip</code>, <code>*_2.zip</code>, …</td>
 </tr>
 </tbody>
@@ -178,8 +178,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="struktur-des-repository">Struktur des Repository</h2>
 <ul>
 <li>Branch: <code>main</code>: OER Inhalte</li>
-<li>Branch: <code>gh-pages</code>: Website unter https://kroehne.github.io/msk-oc/</li>
-<li>Branch: <code>quarto</code>: R-/Quarto-Project zur Erstellung der Website</li>
+<li>Branch: <code>gh-pages</code>: Ausgabe als Website
+<ul>
+<li>Abrufbar unter https://kroehne.github.io/msk-oc/</li>
+</ul></li>
+<li>Branch: <code>quarto</code>: R-/Quarto-Project zur Erstellung der Website
+<ul>
+<li>Benötigt den Inahtld es Branch <code>main</code> im Verzeichnis <code>_content/</code></li>
+</ul></li>
 </ul>
 <section id="cba-itembuilder-projekt-dateien" class="level3">
 <h3 class="anchored" data-anchor-id="cba-itembuilder-projekt-dateien">CBA ItemBuilder Projekt-Dateien</h3>
