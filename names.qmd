@@ -6,7 +6,7 @@ title: "Namenskonventionen"
 
 |Baustein|Auflage|Version|Runtime|Project|
 |--------|-------|-------|-------|----|
-|`B1A`, `B1B`, ..., `S4B`|`edition-1` oder `edition-2`| `V01` oder `V02` | `9.8.0`, `9.9.0` oder `10.0.0`|`*_1.zip`, `*_2.zip`, ...|
+|`B1A`, `B1B`, ..., `S4B`|`edition-1` oder `edition-2`| `V01` oder `V02` | `9.9.0` oder `10.0.0`|`*_1.zip`, `*_2.zip`, ...|
 
 
 Anmerkungen:
@@ -19,9 +19,10 @@ Anmerkungen:
 ## Struktur des Repository  
 
 * Branch: `main`: OER Inhalte
-* Branch: `gh-pages`: Website unter https://kroehne.github.io/msk-oc/
+* Branch: `gh-pages`: Ausgabe als Website
+  - Abrufbar unter https://kroehne.github.io/msk-oc/
 * Branch: `quarto`: R-/Quarto-Project zur Erstellung der Website 
-
+  - Benötigt den Inahtld es Branch `main` im Verzeichnis `_content/` 
 
 ### CBA ItemBuilder Projekt-Dateien
 
