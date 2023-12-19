@@ -2,7 +2,7 @@
 title: "Namenskonventionen"
 ---
 
-### Übersicht
+## Übersicht
 
 |Baustein|Auflage|Version|Runtime|Project|
 |--------|-------|-------|-------|----|
@@ -16,9 +16,25 @@ Anmerkungen:
 * *Auflage* identifiziert die konzeptuell veränderten Bausteine (anderes Fördermaterial)
 
 
-### Ordner-Struktur `_content/`
+## Struktur des Repository  
 
-* Auflage (1. Auflage = `edition-1`,  2. Auflage = `edition-2`, ... )  --> R Variable `Edition`
-  - Version (`V01`, `V02`, ...)  --> R Variable `Version`
-    - Baustein (`msk_b1_a`, `msk_b1_b`, ...)  --> R Variable `Module`
-      - Runtime (`9.9.0`, `10.0.0`, ...) --> R Variable `Runtime`
+* Branch: `main`: OER Inhalte
+* Branch: `gh-pages`: Website unter https://kroehne.github.io/msk-oc/
+* Branch: `quarto`: R-/Quarto-Project zur Erstellung der Website 
+
+
+### CBA ItemBuilder Projekt-Dateien
+
+* Auflage (1. Auflage = `edition-1`,  2. Auflage = `edition-2`, ... ) 
+  - Version (`V01`, `V02`, ...)  
+    - Baustein (`msk_b1_a`, `msk_b1_b`, ...)  
+      - Runtime (`9.9.0`, `10.0.0`, ...) 
+
+### Codebooks
+
+Codebooks aus der Programmierung von `alea.schule`: 
+
+* Auflage (1. Auflage = `edition-1`,  2. Auflage = `edition-2`, ... ) 
+  - Version (`V01`, `V02`, ...)  
+    - Baustein (`msk_b1_a`, `msk_b1_b`, ...)  
+

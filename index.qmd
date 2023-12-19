@@ -43,10 +43,10 @@ extract_codebook_information_title <- function(){
       # edition <- "edition-1"
       # version <- "V01"
       
-       files <- list.files(paste0("_content/_aleacodebooks/",edition,"/",version), pattern = "*.xlsx")
+       files <- list.files(paste0("_content/AleaCodebookFiles/",edition,"/",version), pattern = "*.xlsx")
        for (f in files){
          # f <- files[1]
-         tab <- read.xlsx(xlsxFile=paste0("_content/_aleacodebooks/",edition,"/",version,"/",f), sheet = "Bausteine")
+         tab <- read.xlsx(xlsxFile=paste0("_content/AleaCodebookFiles/",edition,"/",version,"/",f), sheet = "Bausteine")
          msk_codebook_title <- rbind(msk_codebook_title,data.frame(Edition=edition, 
                                       Version=version, 
                                       Module=msk_label[msk_label$Label==tab$Baustein,"Module"], 
@@ -54,9 +54,8 @@ extract_codebook_information_title <- function(){
                                       Document=tab$Dokument, 
                                       SubTitle1=tab$Untertitel.1, 
                                       SubTitle2=tab$Untertitel.2))
-          tab <- read.xlsx(xlsxFile=paste0("_content/_aleacodebooks/",edition,"/",version,"/",f), sheet = "Aufgabenüberschriften")
+          tab <- read.xlsx(xlsxFile=paste0("_content/AleaCodebookFiles/",edition,"/",version,"/",f), sheet = "Aufgabenüberschriften")
           
-          print(f)
           msk_codebook_tasknames <- rbind(msk_codebook_tasknames,data.frame(Edition=edition, 
                                       Version=version, 
                                       Module=msk_label[msk_label$Label==unique(tab$Modul),"Module"], 
@@ -128,7 +127,7 @@ add_ib_project_to_site <- function(file="msk_b1_a_1.zip",
   
   targetfolder_base <- "_site/oer/"
   basefolder_url <- "/oer/"
-  file <- paste0("_content/_ibprojects/",edition,"/",version,"/",runtime,"/",module,"/",file)
+  file <- paste0("_content/CBAItemBuilderProjectFiles/",edition,"/",version,"/",runtime,"/",module,"/",file)
     
   stimulus <- jsonlite::fromJSON(unz(file, "stimulus.json"))
 
@@ -351,7 +350,7 @@ for (version in c("V01","V02")){
       #runtime <- "9.9.0"
       #edition <- "edition-1"
       
-      source_folder <- paste0("_content/_ibprojects/",edition,"/",version,"/",runtime,"/")
+      source_folder <- paste0("_content/CBAItemBuilderProjectFiles/",edition,"/",version,"/",runtime,"/")
       module_folders <- list.dirs(source_folder)
       module_folders <- module_folders[!source_folder==module_folders]  
       
@@ -386,14 +385,14 @@ for (version in c("V01","V02")){
 info <- data.frame(Baustein=NULL,Version=NULL,Thema=NULL,ItemBuilder=NULL)
 
 edition <- "edition-1"
-versions <- list.dirs(paste0("_content/_ibprojects/",edition),recursive=F,full.names = F)
+versions <- list.dirs(paste0("_content/CBAItemBuilderProjectFiles/",edition),recursive=F,full.names = F)
 
 for (version in versions){
   
-  runtimes <- list.dirs(paste0("_content/_ibprojects/",edition,"/",version),recursive=F,full.names = F)
+  runtimes <- list.dirs(paste0("_content/CBAItemBuilderProjectFiles/",edition,"/",version),recursive=F,full.names = F)
   for (runtime in runtimes){
 
-    source_folder <- paste0("_content/_ibprojects/",edition,"/",version,"/",runtime,"/")
+    source_folder <- paste0("_content/CBAItemBuilderProjectFiles/",edition,"/",version,"/",runtime,"/")
     module_folders <- list.dirs(source_folder)
     module_folders <- module_folders[!source_folder==module_folders]  
     

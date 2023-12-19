@@ -1,5 +1,6 @@
 .quarto/
 _site/
+_content/
 .Rproj.user/**
 /.Rproj.user/
 **/.DS_Store
