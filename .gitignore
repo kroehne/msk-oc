@@ -1,0 +1,13 @@
+.quarto/
+_site/
+_book/
+.Rproj.user/**
+/.Rproj.user/
+**/.DS_Store
+.Rproj.user
+.Rhistory
+vs/html2resx/bin
+vs/html2resx/obj
+
+
+/.quarto/
