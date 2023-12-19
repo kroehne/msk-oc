@@ -110,7 +110,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#übersicht" id="toc-übersicht" class="nav-link active" data-scroll-target="#übersicht">Übersicht</a></li>
-  <li><a href="#ordner-struktur-_content" id="toc-ordner-struktur-_content" class="nav-link" data-scroll-target="#ordner-struktur-_content">Ordner-Struktur <code>_content/</code></a></li>
+  <li><a href="#struktur-des-repository" id="toc-struktur-des-repository" class="nav-link" data-scroll-target="#struktur-des-repository">Struktur des Repository</a>
+  <ul class="collapse">
+  <li><a href="#cba-itembuilder-projekt-dateien" id="toc-cba-itembuilder-projekt-dateien" class="nav-link" data-scroll-target="#cba-itembuilder-projekt-dateien">CBA ItemBuilder Projekt-Dateien</a></li>
+  <li><a href="#codebooks" id="toc-codebooks" class="nav-link" data-scroll-target="#codebooks">Codebooks</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -134,8 +138,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="übersicht" class="level3">
-<h3 class="anchored" data-anchor-id="übersicht">Übersicht</h3>
+<section id="übersicht" class="level2">
+<h2 class="anchored" data-anchor-id="übersicht">Übersicht</h2>
 <table class="table">
 <colgroup>
 <col style="width: 24%">
@@ -170,22 +174,43 @@ ul.task-list li input[type="checkbox"] {
 <li><em>Auflage</em> identifiziert die konzeptuell veränderten Bausteine (anderes Fördermaterial)</li>
 </ul>
 </section>
-<section id="ordner-struktur-_content" class="level3">
-<h3 class="anchored" data-anchor-id="ordner-struktur-_content">Ordner-Struktur <code>_content/</code></h3>
+<section id="struktur-des-repository" class="level2">
+<h2 class="anchored" data-anchor-id="struktur-des-repository">Struktur des Repository</h2>
 <ul>
-<li>Auflage (1. Auflage = <code>edition-1</code>, 2. Auflage = <code>edition-2</code>, … ) –&gt; R Variable <code>Edition</code>
+<li>Branch: <code>main</code>: OER Inhalte</li>
+<li>Branch: <code>gh-pages</code>: Website unter https://kroehne.github.io/msk-oc/</li>
+<li>Branch: <code>quarto</code>: R-/Quarto-Project zur Erstellung der Website</li>
+</ul>
+<section id="cba-itembuilder-projekt-dateien" class="level3">
+<h3 class="anchored" data-anchor-id="cba-itembuilder-projekt-dateien">CBA ItemBuilder Projekt-Dateien</h3>
 <ul>
-<li>Version (<code>V01</code>, <code>V02</code>, …) –&gt; R Variable <code>Version</code>
+<li>Auflage (1. Auflage = <code>edition-1</code>, 2. Auflage = <code>edition-2</code>, … )
 <ul>
-<li>Baustein (<code>msk_b1_a</code>, <code>msk_b1_b</code>, …) –&gt; R Variable <code>Module</code>
+<li>Version (<code>V01</code>, <code>V02</code>, …)
 <ul>
-<li>Runtime (<code>9.9.0</code>, <code>10.0.0</code>, …) –&gt; R Variable <code>Runtime</code></li>
+<li>Baustein (<code>msk_b1_a</code>, <code>msk_b1_b</code>, …)
+<ul>
+<li>Runtime (<code>9.9.0</code>, <code>10.0.0</code>, …)</li>
 </ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="codebooks" class="level3">
+<h3 class="anchored" data-anchor-id="codebooks">Codebooks</h3>
+<p>Codebooks aus der Programmierung von <code>alea.schule</code>:</p>
+<ul>
+<li>Auflage (1. Auflage = <code>edition-1</code>, 2. Auflage = <code>edition-2</code>, … )
+<ul>
+<li>Version (<code>V01</code>, <code>V02</code>, …)
+<ul>
+<li>Baustein (<code>msk_b1_a</code>, <code>msk_b1_b</code>, …)</li>
 </ul></li>
 </ul></li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
