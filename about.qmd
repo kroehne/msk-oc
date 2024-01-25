@@ -2,6 +2,12 @@
 title: "Über/Impressum"
 ---
 
-Projekte *Mathe aufholen nach Corona*
+Projekt: *Mathe aufholen nach Corona*
 
 -   2023/12/18: OER-Veröffentlichung der computerisierten Assessmentinhalte des *Mathe sicher können - Online Check* als *CBA ItemBuilder* Projektdateien
+
+
+Mehr Informationen:
+
+* [Plattform: alea.schule](https://www.dipf.de/en/research/projects/alea-schule-platform-for-formative-assessment)
+* [Material: Mathe sicher können](https://mathe-sicher-koennen.dzlm.de/)

@@ -11,7 +11,7 @@ title: "Namenskonventionen"
 
 Anmerkungen:
 
-* *CBA-ItemBuilder*Projektdateien in unterschiedlichen *Runtime*-Versionen sind inhaltsäquivalent.
+* *CBA-ItemBuilder* Projektdateien in unterschiedlichen *Runtime*-Versionen sind inhaltsäquivalent.
 * *Version* identifiziert die inhaltliche Version eines Bausteins (gleiches Fördermaterial)
 * *Auflage* identifiziert die konzeptuell veränderten Bausteine (anderes Fördermaterial)
 
