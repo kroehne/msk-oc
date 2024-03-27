@@ -1,0 +1,84 @@
+---
+title: "N3A (2. Aufl.) - ADDITION UND SUBTRAKTION VERSTEHEN"
+---
+
+*Kann ich Aufgaben zu Situationen finden und umgekehrt?* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_n3_a_auflage2 
+* Auflage: edition-2 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a (1) und 1a (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Addition und Subtraktion mit Material legen
+	 - NA
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n3_a_auflage2_1.zip](../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_1/msk_n3_a_auflage2_1.zip) 
+:::
+<hr noshade/>
+
+### 1b+c
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Addition und Subtraktion mit Material legen
+	 - b) Welches der Bilder passt zur Additionsaufgabe 24+6? 
+c) Welches der Bilder passt zur Subtraktionsaufgabe 30-6?
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n3_a_auflage2_2.zip](../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_2/msk_n3_a_auflage2_2.zip) 
+:::
+<hr noshade/>
+
+### 2
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Additions- und Subtraktionaufgaben am Zahlenstrahl
+	 - Welche Aufgaben passen zu dem Zahenstrahl? Kreuze an.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n3_a_auflage2_3.zip](../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_3/msk_n3_a_auflage2_3.zip) 
+:::
+<hr noshade/>
+
+### 3 (1), 3 (2), 3 (3) und 3 (4)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_4/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Rechengeschichten zu Addition und Subtraktion
+	 - NA
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n3_a_auflage2_4.zip](../oer/edition-2/V01/9.9.0/msk_n3_a_auflage2/msk_n3_a_auflage2_4/msk_n3_a_auflage2_4.zip) 
+:::
+<hr noshade/>
+

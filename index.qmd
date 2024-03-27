@@ -25,18 +25,19 @@ msk_label <- data.frame(Module =  c("msk_b1_a","msk_b1_b","msk_b1_c","msk_b2_a",
                                     "msk_b4_a","msk_d1_a","msk_d2_a","msk_d2_b",
                                     "msk_d3_a", "msk_d4_a","msk_d4_b","msk_db",
                                     "msk_n1_a","msk_n1_b", "msk_n2_a","msk_n2_b",     
-                                    "msk_n2_c","msk_n3_a","msk_n4_a","msk_n4_b",                                             "msk_n5_a","msk_n6_a","msk_n6_b","msk_n6_c",
+                                    "msk_n2_c","msk_n3_a","msk_n4_a","msk_n4_b",  
+                                    "msk_n5_a","msk_n6_a","msk_n6_b","msk_n6_c",
                                     "msk_n7_a","msk_n7_b","msk_n8_a","msk_s1_a",
                                     "msk_s1_b","msk_s1_c","msk_s1_d","msk_s2_a",
                                     "msk_s2_b","msk_s3","msk_s4_a","msk_s4_b",
                                     "msk_s5_a","msk_s5_b","msk_s6_a","msk_s6_b",
-                                    "msk_s6_c"), 
+                                    "msk_s6_c","msk_n3_a_auflage2","msk_n4_a_auflage2","msk_n4_b_auflage2"), 
                         Label=c("B1A","B1B","B1C","B2A","B2B","B2C","B3A","B3B","B4A",
                                 "D1A","D2A","D2B","D3A","D4A","D4B","DB","N1A","N1B",
                                 "N2A","N2B","N2C","N3A","N4A","N4B","N5A","N6A","N6B",
                                 "N6C","N7A","N7B","N8A","S1A","S1B","S1C","S1D",
                                 "S2A","S2B","S3","S4A","S4B","S5A","S5B","S6A",
-                                "S6B","S6C")) 
+                                "S6B","S6C","N3A (2. Aufl.)","N4A (2. Aufl.)","N4B (2. Aufl.)")) 
 
 ###
 
@@ -384,7 +385,7 @@ for (version in c("V01","V02")){
 
 ```
  
-## 1. Auflage
+## 1. Auflage {#first-edition}
 
 ```{r list-first-edition}
 #| echo: false 
@@ -393,6 +394,48 @@ for (version in c("V01","V02")){
 info <- data.frame(Baustein=NULL,Version=NULL,Thema=NULL,ItemBuilder=NULL)
 
 edition <- "edition-1"
+versions <- list.dirs(paste0("_content/CBAItemBuilderProjectFiles/",edition),recursive=F,full.names = F)
+
+for (version in versions){
+  
+  runtimes <- list.dirs(paste0("_content/CBAItemBuilderProjectFiles/",edition,"/",version),recursive=F,full.names = F)
+  for (runtime in runtimes){
+
+    source_folder <- paste0("_content/CBAItemBuilderProjectFiles/",edition,"/",version,"/",runtime,"/")
+    module_folders <- list.dirs(source_folder)
+    module_folders <- module_folders[!source_folder==module_folders]  
+    
+    for (m in module_folders){
+      module <- sub(paste0(source_folder,"/"),"",m)
+      link <- paste0("[",runtime,"](","oer_generated/",edition,"_",version,"_",runtime,"_",module, ".qmd",")")
+      
+      info <- rbind(info,data.frame(Baustein=msk_label[msk_label$Module==module,"Label"],Thema=msk_codebook_title[msk_codebook_title$Module == module, "SubTitle1"],Version=version,ItemBuilder=link))
+    }
+    
+  }
+}
+
+info <- info %>% arrange(Baustein, Version)
+result <- info %>%
+  group_by(Baustein) %>%
+  mutate(Baustein = replace(Baustein, duplicated(Baustein), '')) %>%
+  ungroup %>%
+  mutate(Thema = replace(Thema, duplicated(Thema), '')) %>% select(Thema,Baustein,Version,ItemBuilder)
+colnames(result) <-c("Thema des Bausteins", "Baustein", "Version", "CBA ItemBuilder")
+knitr::kable(result)
+
+```
+
+
+## 2. Auflage {#second-edition}
+
+```{r list-second-edition}
+#| echo: false 
+#| output: asis
+
+info <- data.frame(Baustein=NULL,Version=NULL,Thema=NULL,ItemBuilder=NULL)
+
+edition <- "edition-2"
 versions <- list.dirs(paste0("_content/CBAItemBuilderProjectFiles/",edition),recursive=F,full.names = F)
 
 for (version in versions){

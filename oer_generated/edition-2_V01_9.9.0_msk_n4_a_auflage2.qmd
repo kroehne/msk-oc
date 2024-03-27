@@ -1,0 +1,227 @@
+---
+title: "N4A (2. Aufl.) - MULTIPLIKATION UND DIVISION VERSTEHEN"
+---
+
+*Ich kann Multiplikations-Aufgaben zu Situationen finden und umgekehrt* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_n4_a_auflage2 
+* Auflage: edition-2 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Multiplikation und Würfelbilder
+	 - a) Schreibe zu dem Würfelbild eine passende Mal-Aufgabe auf.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_1.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_1/msk_n4_a_auflage2_1.zip) 
+:::
+<hr noshade/>
+
+### 4a
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_10/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 4 Multiplikation und Rechengeschichten
+	 - NA
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_10.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_10/msk_n4_a_auflage2_10.zip) 
+:::
+<hr noshade/>
+
+### 4b (1) und 4b (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_11/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 4 Multiplikation und Rechengeschichten
+	 - b) Leon hat diese Textaufgabe zu der Mal-Aufgabe 8 • 7=56 geschrieben:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_11.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_11/msk_n4_a_auflage2_11.zip) 
+:::
+<hr noshade/>
+
+### 4c (1) und 4c (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_12/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 4 Multiplikation und Rechengeschichten
+	 - c) Zeynep hat diese Textaufgabe zu der Mal-Aufgabe 2 • 5=10 geschrieben:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_12.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_12/msk_n4_a_auflage2_12.zip) 
+:::
+<hr noshade/>
+
+### 4d (1) und 4d (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_13/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 4 Multiplikation und Rechengeschichten
+	 - d) Anastasia hat diese Textaufgabe zu der Mal-Aufgabe 4 • 5=20 geschrieben:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_13.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_13/msk_n4_a_auflage2_13.zip) 
+:::
+<hr noshade/>
+
+### 1b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Multiplikation und Würfelbilder
+	 - b) Lege ein Würfelbild, das zur Aufgabe 2 • 6=12 passt. Du kannst die Würfel mehrfach nutzen, wenn du möchtest.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_2.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_2/msk_n4_a_auflage2_2.zip) 
+:::
+<hr noshade/>
+
+### 1c
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Multiplikation und Würfelbilder
+	 - c) Welche Würfelbilder passen zu der Mal-Aufgabe 4 • 3? Wähle alle passenden Bilder aus. 
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_3.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_3/msk_n4_a_auflage2_3.zip) 
+:::
+<hr noshade/>
+
+### 2a
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_4/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Multiplikation als Zählen in Gruppen
+	 - a) Schreibe zu dem Schokoladen-Bild eine passende Mal-Aufgabe auf. 
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_4.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_4/msk_n4_a_auflage2_4.zip) 
+:::
+<hr noshade/>
+
+### 2b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_5/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Multiplikation als Zählen in Gruppen
+	 - b) Welche Bilder passen zu der Aufgabe 3 • 4=12? Wähle alle passenden Bilder aus.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_5.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_5/msk_n4_a_auflage2_5.zip) 
+:::
+<hr noshade/>
+
+### 3a
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_6/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Multiplikation am Zahlenstrahl
+	 - a) Schreibe zu dem Zahlenstrahl-Bild eine passende Mal-Aufgabe auf.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_6.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_6/msk_n4_a_auflage2_6.zip) 
+:::
+<hr noshade/>
+
+### 3b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_7/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Multiplikation am Zahlenstrahl
+	 - b) Zeichne zu der Mal-Aufgabe 3•5 ein passendes Bild in den Zahlenstrahl.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_7.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_7/msk_n4_a_auflage2_7.zip) 
+:::
+<hr noshade/>
+
+### 3c (1) und 3c (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_8/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Multiplikation am Zahlenstrahl
+	 - c) Maria hat zu der Mal-Aufgabe 3 • 6=18 diese Sprünge auf dem Zahlenstrahl gezeichnet:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_8.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_8/msk_n4_a_auflage2_8.zip) 
+:::
+<hr noshade/>
+
+### 3d (1) und 3d (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_9/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Multiplikation am Zahlenstrahl
+	 - d) Said hat zu der Mal-Aufgabe 4 • 5=20 diese Sprünge auf dem Zahlenstrahl gezeichnet:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_a_auflage2_9.zip](../oer/edition-2/V01/9.9.0/msk_n4_a_auflage2/msk_n4_a_auflage2_9/msk_n4_a_auflage2_9.zip) 
+:::
+<hr noshade/>
+

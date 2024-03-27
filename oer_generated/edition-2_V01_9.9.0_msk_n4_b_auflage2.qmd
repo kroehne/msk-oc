@@ -1,0 +1,228 @@
+---
+title: "N4B (2. Aufl.) - MULTIPLIKATION UND DIVISION VERSTEHEN"
+---
+
+*Ich kann Divisions-Aufgaben zu Situationen finden und umgekehrt* 
+
+
+::: {.callout-note collapse="true"  title="Bausteinversion"}
+
+
+* Baustein: msk_n4_b_auflage2 
+* Auflage: edition-2 
+* Version: V01 
+* Runtime: 9.9.0 
+:::
+
+## Aufgaben
+
+
+### 1a (1), 1a (2) und 1b
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_1/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 1 Gerecht verteilen
+	 - NA
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_1.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_1/msk_n4_b_auflage2_1.zip) 
+:::
+<hr noshade/>
+
+### 3a
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_10/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Rechengeschichten zu Multiplikation und Division
+	 - NA
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_10.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_10/msk_n4_b_auflage2_10.zip) 
+:::
+<hr noshade/>
+
+### 3b (1) und 3b (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_11/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Rechengeschichten zu Multiplikation und Division
+	 - b) Lucia hat diese Textaufgabe zu der Geteilt-Aufgabe 27:9=3 geschrieben:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_11.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_11/msk_n4_b_auflage2_11.zip) 
+:::
+<hr noshade/>
+
+### 3c (1) und 3c (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_12/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Rechengeschichten zu Multiplikation und Division
+	 - c) Jakob hat diese Textaufgabe zu der Geteilt-Aufgabe 24:6=4 geschrieben:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_12.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_12/msk_n4_b_auflage2_12.zip) 
+:::
+<hr noshade/>
+
+### 3d (1) und 3d (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_13/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 3 Rechengeschichten zu Multiplikation und Division
+	 - d) Lea hat diese Textaufgabe zu der Geteilt-Aufgabe 24:6=4 geschrieben:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_13.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_13/msk_n4_b_auflage2_13.zip) 
+:::
+<hr noshade/>
+
+### 2a (1) und 2a (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_2/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Divisions- und Multiplikations-Aufgaben zu Gruppen und Schritten
+	 - a) Anna hat dieses Bild zu der Geteilt-Aufgabe 9:3=3 gezeichnet:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_2.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_2/msk_n4_b_auflage2_2.zip) 
+:::
+<hr noshade/>
+
+### 2b (1) und 2b (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_3/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Divisions- und Multiplikations-Aufgaben zu Gruppen und Schritten
+	 - b) Mats hat dieses Bild zu der Geteilt-Aufgabe 8:4=2 gezeichnet:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_3.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_3/msk_n4_b_auflage2_3.zip) 
+:::
+<hr noshade/>
+
+### 2c
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_4/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Divisions- und Multiplikations-Aufgaben zu Gruppen und Schritten
+	 - NA
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_4.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_4/msk_n4_b_auflage2_4.zip) 
+:::
+<hr noshade/>
+
+### 2d (1) und 2d (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_5/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Divisions- und Multiplikations-Aufgaben zu Gruppen und Schritten
+	 - d) Immer 5 Gummibärchen sollen in eine Tüte.
+Wie viele Tüten braucht man?
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_5.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_5/msk_n4_b_auflage2_5.zip) 
+:::
+<hr noshade/>
+
+### 2e
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_6/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Division am Zahlenstrahl
+	 - e) Schreibe zu den Schitten auf dem Zahlenstrahl drei passende Aufgaben auf.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_6.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_6/msk_n4_b_auflage2_6.zip) 
+:::
+<hr noshade/>
+
+### 2f
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_7/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Division am Zahlenstrahl
+	 - f) Zeichne in den Zahlenstrahl zu der Geteilt-Aufgabe 20:5 ein passendes Bild.
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_7.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_7/msk_n4_b_auflage2_7.zip) 
+:::
+<hr noshade/>
+
+### 2g (1) und 2g (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_8/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Division am Zahlenstrahl
+	 - g) Sebastian hat zu der Geteilt-Aufgabe 15:5=3 diese Sprünge auf dem Zahlenstrahl gezeichnet:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_8.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_8/msk_n4_b_auflage2_8.zip) 
+:::
+<hr noshade/>
+
+### 2h (1) und 2h (2)
+```{=html}
+<iframe width="100%" height="480"
+src="../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_9/viewer.html"></iframe>
+```
+
+
+::: {.callout-tip collapse="true"  title="Details"}
+
+
+* Aufgabenüberschrift: 2 Division am Zahlenstrahl
+	 - h) Ali hat zu der Geteilt-Aufgabe 21:3=7 diese Sprünge auf dem Zahlenstrahl gezeichnet:
+* Quelldatei für CBA ItemBuilder 9.9.0: [msk_n4_b_auflage2_9.zip](../oer/edition-2/V01/9.9.0/msk_n4_b_auflage2/msk_n4_b_auflage2_9/msk_n4_b_auflage2_9.zip) 
+:::
+<hr noshade/>
+
